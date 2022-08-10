@@ -1,0 +1,21 @@
+{
+    "annotations_file": "./room.xlsx",
+
+    "## NUMBER OF RECEIVERS": "define the number of receivers for STI computation",
+    "n_receivers": 4,
+
+    "## SIMULATOR": "ISM (Image Source Model) or Hybrid (ISM/Ray Tracing)",
+    "simulation_method": "Hybrid",
+
+    "## RIR PARAMETERS": "Settings for the RIR construction",
+    "rir_sampling_rate": 16000,
+    "max_order_reflections": 3,
+    "decay_db": 30,
+    "speaker_gender": "male",
+
+    "## PLOT ACTIVATION": "if true, room and rir plots are displayed",
+    "plot": true,
+
+    "## PRINT RECAP": "if true, input data are printed",
+    "print_recap": true
+}
